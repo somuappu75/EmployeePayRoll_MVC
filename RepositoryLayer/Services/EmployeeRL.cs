@@ -38,6 +38,7 @@ namespace RepositoryLayer.Services
                 con.Close();
             }
         }
+        //To Add new employee record GetAllEmployees
         public IEnumerable<EmployeeModel> GetAllEmployees()
         {
             List<EmployeeModel> lstemployee = new List<EmployeeModel>();
